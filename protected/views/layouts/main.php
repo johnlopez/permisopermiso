@@ -33,6 +33,7 @@
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'Administracion Usuario', 'url'=>array('/usuario/index')),
+				array('label'=>'Administracion Roles', 'url'=>array('/authitem/index')),
 				array('label'=>'Administracion Pais', 'url'=>array('/pais/index')),
 				array('label'=>'Administracion Fruta', 'url'=>array('/fruta/index')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),

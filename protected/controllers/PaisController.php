@@ -50,7 +50,7 @@ class PaisController extends Controller
 							//'create',
 							'view'
 						),
-				'roles'=>array('administracionpais','superadmin'),
+				'roles'=>array('administracionfruta','superadmin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -135,9 +135,6 @@ class PaisController extends Controller
 	 */
 	public function actionIndex()
 	{
-		Yii::app()->authManager->assign("administracionpais",3);
-
-
 		$dataProvider=new CActiveDataProvider('Pais');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,

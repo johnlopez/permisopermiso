@@ -50,7 +50,7 @@ class PaisController extends Controller
 							//'create',
 							'view'
 						),
-				'roles'=>array('administracionfruta','superadmin'),
+				'roles'=>array('administracionpais','superadmin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -64,6 +64,7 @@ class PaisController extends Controller
 	 */
 	public function actionView($id)
 	{
+
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));

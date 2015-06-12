@@ -1,6 +1,6 @@
 <?php
 
-class PaisController extends Controller
+class FrutaController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -27,7 +27,6 @@ class PaisController extends Controller
 	public function accessRules()
 	{
 		return array(
-			/*
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
 				'users'=>array('*'),
@@ -39,19 +38,6 @@ class PaisController extends Controller
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
 				'users'=>array('admin'),
-			),
-			*/
-			array('allow',
-				'actions'=>array(
-							'index',
-							'view',
-							'admin',
-							//'create',
-							'update',
-							'delete'
-							
-						),
-				'roles'=>array('administracionpais','superadmin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -65,7 +51,6 @@ class PaisController extends Controller
 	 */
 	public function actionView($id)
 	{
-
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
@@ -77,14 +62,14 @@ class PaisController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Pais;
+		$model=new Fruta;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Pais']))
+		if(isset($_POST['Fruta']))
 		{
-			$model->attributes=$_POST['Pais'];
+			$model->attributes=$_POST['Fruta'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -106,9 +91,9 @@ class PaisController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Pais']))
+		if(isset($_POST['Fruta']))
 		{
-			$model->attributes=$_POST['Pais'];
+			$model->attributes=$_POST['Fruta'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -136,8 +121,24 @@ class PaisController extends Controller
 	 * Lists all models.
 	 */
 	public function actionIndex()
-	{
-		$dataProvider=new CActiveDataProvider('Pais');
+	{                
+                $modulo=Yii::app()->controller->module->id;
+                echo 'mi modulo es: ';
+                echo $modulo;
+                echo '<br>';  
+                
+                $controlador=Yii::app()->controller->id;
+                echo 'mi controlador es: ';
+                echo $controlador;
+                echo '<br>';                  
+                
+                $action=Yii::app()->controller->action->id;
+                echo 'mi action es: ';
+                echo $action;
+                echo '<br>';         
+                
+                
+		$dataProvider=new CActiveDataProvider('Fruta');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -148,10 +149,10 @@ class PaisController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Pais('search');
+		$model=new Fruta('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Pais']))
-			$model->attributes=$_GET['Pais'];
+		if(isset($_GET['Fruta']))
+			$model->attributes=$_GET['Fruta'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -162,12 +163,12 @@ class PaisController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Pais the loaded model
+	 * @return Fruta the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Pais::model()->findByPk($id);
+		$model=Fruta::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -175,11 +176,11 @@ class PaisController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Pais $model the model to be validated
+	 * @param Fruta $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='pais-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='fruta-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

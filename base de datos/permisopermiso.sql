@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 10-06-2015 a las 18:54:21
+-- Tiempo de generación: 12-06-2015 a las 19:46:24
 -- Versión del servidor: 5.5.20
 -- Versión de PHP: 5.3.10
 
@@ -40,6 +40,7 @@ CREATE TABLE IF NOT EXISTS `authassignment` (
 
 INSERT INTO `authassignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES
 ('administracionfruta', '2', NULL, 'N;'),
+('administracionpais', '2', NULL, 'N;'),
 ('administracionpais', '3', NULL, 'N;'),
 ('superadmin', '1', NULL, 'N;');
 

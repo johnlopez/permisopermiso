@@ -36,6 +36,7 @@
 				array('label'=>'Administracion Roles', 'url'=>array('/authitem/index')),
 				array('label'=>'Administracion Pais', 'url'=>array('/pais/index')),
 				array('label'=>'Administracion Fruta', 'url'=>array('/fruta/index')),
+                                array('label'=>' Fruta Modulo', 'url'=>array('administracionfruta/fruta/index')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),

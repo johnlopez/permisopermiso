@@ -1618,3 +1618,427 @@ Stack trace:
 REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
 in C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php (128)
 in C:\wamp\www\yii\permisopermiso\index.php (13)
+2015/06/16 19:20:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/admin
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/16 19:40:18 [error] [php] Object of class Privilegio could not be converted to string (C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(265): FrutaController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): FrutaController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\yii\permisopermiso\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+in C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php (31)
+in C:\wamp\www\yii\permisopermiso\index.php (13)
+2015/06/16 19:40:58 [error] [php] Object of class Privilegio could not be converted to string (C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(265): FrutaController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): FrutaController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\yii\permisopermiso\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+in C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php (31)
+in C:\wamp\www\yii\permisopermiso\index.php (13)
+2015/06/16 19:40:59 [error] [php] Object of class Privilegio could not be converted to string (C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(265): FrutaController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): FrutaController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\yii\permisopermiso\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+in C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php (31)
+in C:\wamp\www\yii\permisopermiso\index.php (13)
+2015/06/16 19:42:33 [error] [php] Object of class Privilegio could not be converted to string (C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(265): FrutaController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): FrutaController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\yii\permisopermiso\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+in C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php (31)
+in C:\wamp\www\yii\permisopermiso\index.php (13)
+2015/06/16 19:42:36 [error] [php] Object of class Privilegio could not be converted to string (C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(265): FrutaController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): FrutaController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\yii\permisopermiso\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+in C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php (31)
+in C:\wamp\www\yii\permisopermiso\index.php (13)
+2015/06/16 19:43:38 [error] [php] Object of class Privilegio could not be converted to string (C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(265): FrutaController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): FrutaController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\yii\permisopermiso\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+in C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php (31)
+in C:\wamp\www\yii\permisopermiso\index.php (13)
+2015/06/16 19:43:40 [error] [php] Object of class Privilegio could not be converted to string (C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(265): FrutaController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): FrutaController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\yii\permisopermiso\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+in C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php (31)
+in C:\wamp\www\yii\permisopermiso\index.php (13)
+2015/06/16 19:43:41 [error] [php] Object of class Privilegio could not be converted to string (C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(265): FrutaController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): FrutaController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\yii\permisopermiso\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+in C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php (31)
+in C:\wamp\www\yii\permisopermiso\index.php (13)
+2015/06/16 19:43:42 [error] [php] Object of class Privilegio could not be converted to string (C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(265): FrutaController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): FrutaController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\yii\permisopermiso\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+in C:\wamp\www\yii\permisopermiso\protected\modules\administracionfruta\controllers\FrutaController.php (31)
+in C:\wamp\www\yii\permisopermiso\index.php (13)
+2015/06/16 19:44:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/create
+---
+2015/06/16 19:45:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/create
+---
+2015/06/16 19:45:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/create
+---
+2015/06/16 19:45:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/create
+---
+2015/06/16 19:45:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/create
+---
+2015/06/16 19:45:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/create
+---
+2015/06/16 19:50:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/create
+---
+2015/06/16 19:50:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/create
+---
+2015/06/16 19:56:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/16 19:56:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/create
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/16 19:56:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/admin
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/16 19:58:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/admin
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/create
+---
+2015/06/16 20:21:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/17 12:55:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/fruta/admin
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/17 12:55:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administracionfruta/administracionfruta/fruta/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/17 12:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administracionfruta/administracionfruta/fruta/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/17 12:55:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administracionfruta/administracionfruta/fruta/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/17 12:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administracionfruta/administracionfruta/fruta/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/17 12:56:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administracionfruta/administracionfruta/fruta/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/17 12:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administracionfruta/administracionfruta/fruta/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---
+2015/06/17 12:56:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administracionfruta/administracionfruta/fruta/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('administracionf...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\permisopermiso\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/permisopermiso/administracionfruta/administracionfruta/fruta/index
+HTTP_REFERER=http://localhost/yii/permisopermiso/administracionfruta/fruta/index
+---

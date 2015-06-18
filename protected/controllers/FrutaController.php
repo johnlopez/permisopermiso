@@ -47,7 +47,7 @@ class FrutaController extends Controller
 							'admin',
 							'delete',
 							'update',
-							//'create',
+							'create',
 							'view'
 						),
 				'roles'=>array('administracionfruta','superadmin'),
